@@ -216,3 +216,51 @@ p{
 
 
 
+.letter {
+  text-align: center;
+  font-family: 'Dancing Script', 'Pacifico', cursive;
+  font-size: 1.6rem;       /* 少し大きく */
+  font-weight: 500;
+  line-height: 1.6;
+  margin: 0.4em 0;
+
+   letter-spacing: 0.03em;
+  color: #b03060;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  background: url("img/background.jpg") center / cover no-repeat;
+}
+
+
+.bg {
+  min-height: 100vh;
+}
+
+
+.message-container {
+  position: relative;       /* 写真の基準 */
+  padding-bottom: 220px;    /* 写真分の余白 */
+}
+
+.corner-photo {
+  position: absolute;
+  right: 20px;
+  bottom: 250px;
+
+  width: 170px;
+  height: auto;
+
+  transform: rotate(8deg);
+  border-radius: 14px;
+  border: 4px solid #fff;
+  box-shadow: 0 12px 25px rgba(0,0,0,0.35);
+  z-index: 10;
+}
